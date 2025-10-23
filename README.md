@@ -25,14 +25,24 @@ In the terminal, navigate to the frontend folder:
 3. `npm run dev`
 4. Visit the URL printed in your terminal (usually http://localhost:5173).
 
+
 🧩 Features
+
 Movie and TV series reviews fetched from the backend
+
 Year-based filtering
+
 Clean React UI
+
 Backend built with Java, Spring Boot, and MySQL
+
 Database migrations handled with Flyway
 
+
 📦 Tech Stack
+
 Frontend: React, JavaScript, CSS
+
 Backend: Java, Spring Boot, Flyway
+
 Database: MySQL
