@@ -10,12 +10,15 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
 
 ## Running locally
 ### Backend
-1. Make sure you have **Java 17+** and **MySQL** installed.  
-2. In `server/src/main/resources/application.properties`, set your local MySQL credentials:
-   ```properties
-   spring.datasource.username=your_user
-   spring.datasource.password=your_password
-3. Run the Spring Boot app.
+1. Make sure you have **Java 17+** and **MySQL** installed.
+2. Database Setup:
+   2.1 Ensure MySQL is running properly
+   2.2 Create an empty database: `CREATE DATABASE ranking_db;`
+   2.3 The default MYSQL credentials in the application.properties are set to root and password.
+   To use your own credentials, set these environment variables:
+     - `MYSQL_USERNAME`
+     - `MYSQL_PASSWORD`
+5. Run the Spring Boot app. (for windows `.\mvnw spring-boot:run`)
 
 ### Frontend
 Open the project in VS Code (or your preferred IDE).
