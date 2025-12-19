@@ -18,5 +18,5 @@ server/out/
 # Logs
 *.log
 
-# Local dev properties (if you want to keep them private)
+# Local dev properties
 server/src/main/resources/application-dev.properties
