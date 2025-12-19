@@ -15,12 +15,12 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
    ```properties
    spring.datasource.username=your_user
    spring.datasource.password=your_password
-3. Run the Spring Boot app (e.g., `mvn spring-boot:run`).
+3. Run the Spring Boot app.
 
 ### Frontend
 Open the project in VS Code (or your preferred IDE).
-In the terminal, navigate to the frontend folder:
-1. `cd client`
+In the terminal, make sure you are in the client folder:
+1. if you are not then `cd client`
 2. `npm install`
 3. `npm run dev`
 4. Visit the URL printed in your terminal (usually http://localhost:5173).
