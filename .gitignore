@@ -1,0 +1,22 @@
+# IDEs
+.idea/
+*.swp
+*.iml
+.vscode/
+
+# Node / Frontend
+client/node_modules/
+client/dist/
+client/.env*
+!client/.env.example
+
+# Java / Backend
+server/target/
+server/out/
+*.class
+
+# Logs
+*.log
+
+# Local dev properties (if you want to keep them private)
+server/src/main/resources/application-dev.properties
