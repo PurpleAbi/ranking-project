@@ -19,7 +19,7 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
    To use your own credentials, set these environment variables:
      - `MYSQL_USERNAME`
      - `MYSQL_PASSWORD`\
-   2.3 Create an empty database: `CREATE DATABASE ranking_db;`\
+2.3 Create an empty database: `CREATE DATABASE ranking_db;`
 5. Run the Spring Boot app directly from your IDE (or in terminal for windows `.\mvnw spring-boot:run`)
 
 ### Frontend
