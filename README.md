@@ -18,8 +18,8 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
    2.2 The default MYSQL credentials in the application.properties are set to root and password.\
    To use your own credentials, set these environment variables:
      - `MYSQL_USERNAME`
-     - `MYSQL_PASSWORD`
-   \2.3 Create an empty database: `CREATE DATABASE ranking_db;`\
+     - `MYSQL_PASSWORD`\
+   2.3 Create an empty database: `CREATE DATABASE ranking_db;`\
 5. Run the Spring Boot app directly from your IDE (or in terminal for windows `.\mvnw spring-boot:run`)
 
 ### Frontend
