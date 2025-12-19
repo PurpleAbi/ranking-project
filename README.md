@@ -11,7 +11,9 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
 ## Running locally
 ### Backend
 1. Make sure you have **Java 17+** and **MySQL** installed.
-2. Database Setup:\
+2. Create and API KEY for the external API here : <https://www.omdbapi.com/apikey.aspx>
+   2.1 Set the variable in application.properties `OMDBAPI_KEY` with the value of your generated api key, which you'll receive via email.
+4. Database Setup:\
    2.1 Ensure MySQL is running properly\
    2.2 The default MYSQL credentials in the application.properties are set to root and password.\
    To use your own credentials, set these environment variables:
