@@ -13,14 +13,14 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
 1. Make sure you have **Java 17+** and **MySQL** installed.
 2. Create and API KEY for the external API here : <https://www.omdbapi.com/apikey.aspx> (FREE option)\
    2.1 Set the variable `OMDBAPI_KEY` in `application.properties` with the value of your generated api key, which you'll receive via email.
-4. Database Setup:\
-   2.1 Ensure MySQL is running properly.\
-   2.2 The default MYSQL credentials in the `application.properties` are set to root and password.\
+3. Database Setup:\
+   3.1 Ensure MySQL is running properly.\
+   3.2 The default MYSQL credentials in the `application.properties` are set to root and password.\
       To use your own credentials, set these environment variables:\
            - `MYSQL_USERNAME`\
            - `MYSQL_PASSWORD`\
-   2.3 Create an empty database: `CREATE DATABASE ranking_db;`
-5. Run the Spring Boot app directly from your IDE (or in terminal for windows `.\mvnw spring-boot:run`)
+   3.3 Create an empty database: `CREATE DATABASE ranking_db;`
+4. Run the Spring Boot app directly from your IDE (or in the terminal `.\mvnw spring-boot:run` for windows `./mvnw spring-boot:run` for linux or mac).
 
 ### Frontend
 Open the project in VS Code (or your preferred IDE).
