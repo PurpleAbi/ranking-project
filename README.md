@@ -18,7 +18,7 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
    To use your own credentials, set these environment variables:
      - `MYSQL_USERNAME`
      - `MYSQL_PASSWORD`
-5. Run the Spring Boot app. (for windows `.\mvnw spring-boot:run`)
+5. Run the Spring Boot app directly from your IDE (or in terminal for windows `.\mvnw spring-boot:run`)
 
 ### Frontend
 Open the project in VS Code (or your preferred IDE).
