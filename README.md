@@ -11,10 +11,10 @@ A blog-like web app built with **React**, **Spring Boot**, and **MySQL**, where 
 ## Running locally
 ### Backend
 1. Make sure you have **Java 17+** and **MySQL** installed.
-2. Database Setup:
-   2.1 Ensure MySQL is running properly
-   2.2 Create an empty database: `CREATE DATABASE ranking_db;`
-   2.3 The default MYSQL credentials in the application.properties are set to root and password.
+2. Database Setup:\
+   2.1 Ensure MySQL is running properly\
+   2.2 Create an empty database: `CREATE DATABASE ranking_db;`\
+   2.3 The default MYSQL credentials in the application.properties are set to root and password.\
    To use your own credentials, set these environment variables:
      - `MYSQL_USERNAME`
      - `MYSQL_PASSWORD`
