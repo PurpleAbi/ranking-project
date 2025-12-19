@@ -17,6 +17,3 @@ server/out/
 
 # Logs
 *.log
-
-# Local dev properties
-server/src/main/resources/application-dev.properties
