@@ -29,6 +29,7 @@ In the terminal, make sure you are in the client folder:
 2. `npm install`
 3. `npm run dev`
 4. Visit the URL printed in your terminal (usually http://localhost:5173).
+5. Sometimes you have to wait for the database to load the data of movies and series or reload the page to see it.
 
 
 🧩 Features
